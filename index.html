@@ -1,0 +1,34 @@
+<!--Alex Vasquez-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Dyanmic Multiplication Table</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main>
+        <h1>Dyanmic Multiplication Table</h1>
+        <!--setup for the form to function correctly
+            also an inclusion of the submit button to do
+            the calculation once clicked-->
+        <form>
+          <label for="min_y">Min Val of Y(-50 to 50)</label>
+          <input type="number" id="min_y" name="min_y" min="-50" max="50"><br>
+
+          <label for="max_y">Max Val of Y(-50 to 50)</label>
+          <input type="number" id="max_y" name="max_y" min="-50" max="50"><br>
+
+          <label for="min_x">Min Val of X(-50 to 50)</label>
+          <input type="number" id="min_x" name="min_x" min="-50" max="50"><br>
+
+          <label for="max_x">Max Val of X(-50 to 50)</label>
+          <input type="number" id="max_x" name="max_x" min="-50" max="50"><br>
+          
+          <input type="submit" value="Submit" onclick="Arithmetic()">
+        </form>
+    </main>
+	<script src="index.js">
+  </script>
+  </body>
+</html>
